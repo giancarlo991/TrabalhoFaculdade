@@ -149,3 +149,42 @@ a{
     background: url(imagens/Basilica.png) lightgray -130.223px -0.847px / 163.992% 100% no-repeat;
     justify-self: right;
 }
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+.info-box {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 60px 0px;
+    display: grid;
+    grid-template-columns: 20fr 1fr 20fr;
+    gap: 25px;
+}
+
+.info-box h2 {
+    margin-top: 0;
+}
+
+.info-box p {
+    line-height: 1.6;
+}
+.foto img{
+    border-radius: 10px;
+}
+.foto{
+    margin: auto 0;
+    height: fit-content;
+}
+.linha{
+    background-color: gray;
+    height: 100%;
+    width: 2px;
+    margin: 0 auto;
+}
